@@ -7,7 +7,7 @@ ECHO *** Golint ***
 ECHO Lint prints out style mistakes
 ECHO.
 
-go get github.com/golang/lint/golint
+go get golang.org/x/lint/golint
 
 FOR /F "tokens=*" %%A IN (Packages.txt) DO (
 SET PACKAGE=%%A
