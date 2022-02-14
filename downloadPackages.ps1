@@ -1,6 +1,6 @@
 ﻿# Download and extract 64bit packages
 "Downloading golang"
-Invoke-WebRequest https://dl.google.com/go/go1.13.5.windows-amd64.zip -OutFile golang.zip
+Invoke-WebRequest https://go.dev/dl/go1.17.7.windows-amd64.zip -OutFile golang.zip
 "Downloading liteide"
 Invoke-WebRequest https://github.com/visualfc/liteide/releases/download/x36.2/liteidex36.2.windows-qt5.9.5.zip -OutFile liteide.zip
 "Downloading Git"
